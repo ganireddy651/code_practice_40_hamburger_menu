@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.app-container {
+  height: 100vh;
+}
+.line {
+  color: #dcdcdc;
+}
+.about-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-image {
+  height: 400px;
+  width: 450px;
+}

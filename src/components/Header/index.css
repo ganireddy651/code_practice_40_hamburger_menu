@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.app-navbar {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.website-logo {
+  height: 50px;
+  width: 50px;
+}
+.hamburger-icon {
+  margin-top: 10px;
+  height: 28px;
+  width: 25px;
+}
+.link {
+  text-decoration: none;
+}
+.btn {
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
