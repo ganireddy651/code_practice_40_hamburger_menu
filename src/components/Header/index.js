@@ -11,11 +11,11 @@ const Header = () => (
         alt="website logo"
       />
     </Link>
-    <button className="btn" type="button" data-testid="hamburgerIconButton">
-      <Link to="/popup" className="link">
+    <Link to="/popup" className="link">
+      <button className="btn" type="button" data-testid="hamburgerIconButton">
         <GiHamburgerMenu className="hamburger-icon" />
-      </Link>
-    </button>
+      </button>
+    </Link>
   </nav>
 )
 

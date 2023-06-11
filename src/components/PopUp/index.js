@@ -10,11 +10,13 @@ const ReactPopUp = () => (
   <div className="close-icon-container">
     <Popup
       trigger={
-        <button className="trigger-button" type="button">
-          <div data-testid="closeButton">
-            <IoMdClose />
-          </div>
-        </button>
+        <Link to="/">
+          <button className="trigger-button" type="button">
+            <div data-testid="closeButton">
+              <IoMdClose />
+            </div>
+          </button>
+        </Link>
       }
     />
     <div className="popup-container">
